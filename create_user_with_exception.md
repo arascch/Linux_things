@@ -42,4 +42,4 @@ sudo userdel arashaskari
 ```
 
 >[!TIP]
-> if you use -r flag , This user's home directory will also be deleted.
+> if you use `-r` flag , This user's home directory will also be deleted.
