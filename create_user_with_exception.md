@@ -43,3 +43,35 @@ sudo userdel arashaskari
 
 >[!TIP]
 > if you use `-r` flag , This user's home directory will also be deleted.
+
+## Disable access to `SSH` with Root user
+
+> edit the `sshd_config` file
+
+> /etc/ssh/sshd_config
+
+```
+PermitRootLogin no
+
+```
+
+> into teminal:
+```
+sudo systemctl restart sshd
+```
+
+### force user to change password in first login
+
+```
+sudo user -m arash
+sudo passwd arash
+sudo chage -d 0 arash
+```
+
+### export commands from history
+
+```
+history > /home/arashask/history.txt
+```
+
+`Have a Good Moment`
