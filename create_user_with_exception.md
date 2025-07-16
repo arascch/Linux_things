@@ -36,7 +36,7 @@ Cmnd_Alias SHUTDOWN_CMDS = /sbin/shutdown, /sbin/reboot, /bin/systemctl reboot, 
 arashask ALL = ALL, !SHUTDOWN_CMDS
 ```
 
-### delete normal user but home directory don't change
+## delete normal user but home directory don't change
 ```
 sudo userdel arashaskari
 ```
@@ -60,7 +60,7 @@ PermitRootLogin no
 sudo systemctl restart sshd
 ```
 
-### force user to change password in first login
+## force user to change password in first login
 
 ```
 sudo user -m arash
@@ -68,7 +68,7 @@ sudo passwd arash
 sudo chage -d 0 arash
 ```
 
-### export commands from history
+## export commands from history
 
 ```
 history > /home/arashask/history.txt
