@@ -18,7 +18,8 @@ in this part, try to create to two user with diffrent privilage. one of them is 
 sudo usermod -aG sudo arashask
 ```
 
-> Restrict new sudo user
+> Restrict new sudo user\
+
 >[!NOTE]
 > for restriction we have 2 method , one of them is a create seprate file for new user and then set the access or user visudo file directly.
 
