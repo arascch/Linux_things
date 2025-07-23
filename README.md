@@ -4,3 +4,4 @@ I'm run this things on Ubuntu 24.04 :D
 - User management
 - Disk Partitioning
 - File management
+- Network Management in Ubuntu 24.04
